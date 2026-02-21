@@ -90,7 +90,7 @@ async function run() {
         else {
             core.info('No post-deploy commands provided, skipping');
         }
-        fs.unlinkSync(sshKeyPath);
+        fs.unlinkSync(sshKeyPath);6000
         core.info('SSH key cleaned up');
         core.info('Deployment completed successfully!');
     }
